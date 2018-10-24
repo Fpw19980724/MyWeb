@@ -1,0 +1,133 @@
+*{margin: 0;padding: 0;list-style: none;}
+
+#login_frame
+{
+  width: 400px;
+  height: 260px;
+  padding: 13px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -200px;
+  margin-top: -200px;
+  background-color: rgba(240,255,255,0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+
+#image_logo
+{
+  margin-left: 0px;
+}
+
+.label_input
+{
+  font-size: 14px;
+  font-family: 宋体;
+
+  width: 70px;
+  height: 75px;
+  line-height: 40px;
+  text-align: center;
+  margin-top: 20px;
+
+  color: white;
+  background-color: #3CD8FF;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.text_field
+{
+  width: 278px;
+  height: 22px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border: 0;
+  margin-top: 20px;
+
+}
+
+#btn_login
+{
+  font-size: 14px;
+  font-family: 宋体;
+  width: 120px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: 15px;
+
+  color: white;
+  background-color: #3BD9FF;
+  border-radius: 6px;
+  border: 0;
+
+  float: left;
+}
+
+<!--让输入框和lable居中-->
+form p > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#forget_pwd
+{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  position: relative;
+  float: right;
+  margin-top: 15px;
+  cursor: help;
+}
+
+#new_a_counter
+{
+  font-size: 12px;
+  color: white;
+  text-decoration: none;
+  position:relative;
+  float: inside;
+}
+
+#new_a_counter:hover
+{
+  color: yellow;
+  text-decoration: underline;
+}
+
+#forget_pwd:hover
+{
+  color: #3BD9FF;
+  text-decoration: underline;
+}
+
+
+
+#login_control
+{
+  padding: 0 10px;
+}
+
+.footer{
+  position: absolute;
+  left: 20px;
+  top: 720px;
+  text-align: center;
+  margin:60px auto;
+}
+.footer ul{
+  margin-left: 100px;
+}
+.footer ul li{
+  float:left;
+}
+.footer ul li a{
+  text-decoration: none;
+  color: black;
+  border-left: 2px solid black;
+  padding: 0 10px;
+}

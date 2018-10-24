@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>HUB系统 华中科技大学教学信息平台账号注册</title>
+    <link rel="stylesheet", href="css/registerCSS.css">
+</head>
+<body background="img/psb.jpeg" style=background-repeat:no-repeat;background-size:116%;background-attachment:fixed   >
+  <div class="container" >
+    <div class="register_box">
+      <div class="title_box">
+        <span>用户注册</span>
+      </div>
+      <form action="js/register.js" method="post">
+
+        <!--用户名box-->
+        <div class="username_box">
+          <span class="require">*</span>
+          <label for="username">用户名</label>
+          <div class="username_input">
+            <input type="text" id="username" name="username" placeholder="请输入用户名（U201XXXXXX）">
+          </div>
+        </div>
+
+        <!--密码box-->
+        <div class="password_box">
+          <span class="require">*</span>
+          <label for="password">密码</label>
+          <div class="password_input">
+            <input type="text" id="password" name="password" placeholder="请输入密码（长度6-12位）">
+          </div>
+        </div>
+
+        <!--重新输入密码box-->
+        <div class="user_Repassword_box">
+          <span class="require">*</span>
+          <label for="user_Repassword">确认密码</label>
+          <div class="user_Repassword_input">
+            <input type="text" id="user_repassword" name="user_repassword" placeholder="请重新输入密码">
+          </div>
+        </div>
+
+        <!--手机box-->
+          <div class="userPhone_box">
+            <span class="require">*</span>
+            <label for="user_phonenum">手机号码</label>
+            <div class="userPhone_input">
+              <input type="text" id="user_phonenum" name="phonenum" placeholder="请输入11位手机号码">
+            </div>
+          </div>
+
+        <!--邮箱box-->
+            <div class="user_Email_box">
+              <span class="require">*</span>
+              <label for="user_Email">邮箱</label>
+              <div class="user_Email_input">
+                <input type="text" id="user_Email" name="user_Email" placeholder="请输入邮箱">
+              </div>
+            </div>
+
+        <!--性别选择-->
+              <div class="user_Gender_box">
+                <span class="require">*</span>
+                <label>性别</label>
+                <div class="user_Gender_input">
+                  <input type="radio" id="user_Gender01" name="user_Gender" value="0" checked="checked" />男
+                  <input type="radio" id="user_Gender02" name="user_Gender" value="1" />女
+                </div>
+              </div>
+
+        <!--确认递交按钮-->
+        <div class="submit_box">
+          <input id="submit_Bottom" onclick="press()" type="submit" value="注册">
+        </div>
+
+        <!--去登录界面-->
+        <div class="go_Index_box">
+          <a href="index.html" style=text-decoration:none>已有账号？去登录！</a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+
+<script src="js/register.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <!-- 通常在head里链接外联CSS文件 -->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>HUB系统 华中科技大学教学信息平台</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/loginCSS.css">
+</head>
+
+<!--背景设置-->
+<body background="img/HUSTBGP.png"style=background-repeat:no-repeat;-webkit-background-size:100%;background-attachment:fixed >
+  <!--[if lte IE 9]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+
+
+  <!--尾部-->
+  <div2 class="footer">
+    <ul>
+      <li><a href="#">关于我们</a></li>
+      <li><a href="#">诚聘人才</a></li>
+      <li><a href="#">电话：027-87540900</a></li>
+      <li><a href="#">邮政编码：430074</a></li>
+      <li><a href="#">湖北省武汉市洪山区珞喻路1037号 © 2006-2018　华中科技大学注册中心</a></li>
+    </ul>
+  </div2>
+
+  <!--登录-->
+  <div id="login_frame">
+    <p id="image_logo"><img src="img/loginlogo1.png" width="360" height="80"></p>
+    <form method="post" action="js/login.js">
+      <p><label class="label_input">账号</label><input type="text" class="text_field" id="username"></p>
+      <p><label class="label_input">密码</label><input type="text" class="text_field" id="password"></p>
+      <div id="login_control">
+        <input type="button" id="btn_login" value="登录" onclick="login()">
+        <a id="forget_pwd" href="registerpage.html">新用户注册</a>
+        <!--<a id="new_a_counter" href="index.html">新用户注册</a>-->
+      </div>
+    </form>
+  </div>
+
+
+
+
+
+  <!--配置JS的脚本文件-->
+<script src="js/vendor/modernizr-{{MODERNIZR_VERSION}}.min.js"></script>
+<script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js" integrity="{{JQUERY_SRI_HASH}}" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+  <script src="js/login.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
